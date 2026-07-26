@@ -1,7 +1,24 @@
 aid: earli
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/earli.png
 name: Earli
-description: Earli is a company surfaced as a portfolio company of a16z, menlo-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Earli is a biotech company using AI-designed genetic switches for early
+  cancer detection and treatment. Its synthetic-biomarker technology forces cancer
+  cells to reveal themselves for earlier, more accurate detection, and can program
+  cancer cells to self-destruct while sparing healthy tissue. Founded by Cyriac Roeding
+  and backed by a16z and Menlo Ventures, Earli is a research-stage company with no
+  public developer platform, API, or SDK surface. This profile was added to the API
+  Evangelist network as a venture-portfolio lead awaiting further enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/earli/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Biotechnology
+- Healthcare
+- Cancer Detection
+- Diagnostics
+- Life Sciences
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +47,14 @@ maintainers:
 common:
 - type: Website
   url: https://earli.com
+- type: PrivacyPolicy
+  url: https://earli.com/privacy-policy
+- type: Blog
+  url: https://earli.com/news
+- type: DomainSecurity
+  url: security/earli-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
